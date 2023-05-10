@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vk.internship.github.io/static/css/main.08bf227b.css",
+    "main.js": "/vk.internship.github.io/static/js/main.bfa33acf.js",
+    "index.html": "/vk.internship.github.io/index.html",
+    "main.08bf227b.css.map": "/vk.internship.github.io/static/css/main.08bf227b.css.map",
+    "main.bfa33acf.js.map": "/vk.internship.github.io/static/js/main.bfa33acf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08bf227b.css",
+    "static/js/main.bfa33acf.js"
+  ]
+}
