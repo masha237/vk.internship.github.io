@@ -1,0 +1,108 @@
+@import "theme-variables.css";
+.user-page {
+    display: grid;
+
+    padding: 0;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 40px 1fr;
+    grid-template-areas: "a a" "b c";
+    height: 100%;
+}
+
+#person-name-header {
+    grid-area: a;
+    font-weight: bold;
+    font-size: 16pt;
+    padding: 8px 10px;
+    color: var(--additionalColor);
+    border-bottom: 1px solid var(--borderColor);
+    background: #F7F7F7;
+}
+
+
+.first-column {
+    width: 100%;
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+}
+
+#person-avatar {
+    width: 100%;
+}
+
+#person-avatar img {
+    width: 90%;
+    padding: 5px 5px 0;
+    aspect-ratio: 1/1;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.second-column {
+    grid-area: c;
+    border-left: 1px solid var(--borderColor);
+    padding: 10px 10px 0;
+}
+
+#person-name {
+    font-weight: bold;
+    font-size: 14pt;
+    border-bottom: 1px solid var(--borderColor);
+    padding-bottom: 10px;
+}
+
+
+.info {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.explanation {
+    width: 40%;
+}
+
+
+.second-column h4 {
+    padding-top: 10px;
+    font-size: 14pt;
+    position: relative;
+
+    width: auto;
+}
+
+h4 span {
+    background-color: white;
+    padding-right: 10px;
+}
+
+h4:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-top: 1px solid var(--borderColor);
+    z-index: -1;
+}
+
+.selector {
+    width: 100%;
+    height: 30px;
+    background: #F7F7F7;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 4px;
+}
+
+.first-column .button-friend {
+    border-radius: 0;
+    width: 100%;
+    min-height: 40px;
+    height: auto;
+}

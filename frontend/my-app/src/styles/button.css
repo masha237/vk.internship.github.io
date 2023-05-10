@@ -1,0 +1,12 @@
+.button-friend {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: var(--mainBGColor);
+    color: var(--headerColor);
+    font-weight: bold;
+}
+
+button image {
+    background: #4E729A;
+}
