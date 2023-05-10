@@ -1,5 +1,5 @@
 
-export const API_URL = "https://vk.perveevm.ru/"
+export const API_URL = "https://vk.perveevm.ru/api"
 
 export const AUTH = "auth/"
 export const LOGIN = "login"
